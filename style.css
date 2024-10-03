@@ -1,0 +1,60 @@
+body{
+background: rgb(2, 0, 36);
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 1%, rgba(124, 35, 125, 0.5746673669467788) 55%);
+background-attachment: fixed;
+margin: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#form{
+    width: 400px;
+    margin: 20vh auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+#form button{
+    background-color: blueviolet;
+    color: wheat;
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(0, 195, 255);
+}
+.input-group input:focus{
+    outline: 0;
+}
+
+/* Add success and error borders to the input fields */
+.input-group.error input {
+    border-color: red;
+}
+
+.input-group.success input {
+    border-color: green;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
